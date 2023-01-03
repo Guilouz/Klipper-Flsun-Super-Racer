@@ -1,6 +1,6 @@
 # Klipper pour FLSUN Super Racer
 
-![banniere](https://user-images.githubusercontent.com/12702322/210415856-2ea92b0d-1849-4a0f-ad5c-01b127ed6187.png)
+![banniere](https://user-images.githubusercontent.com/12702322/210418765-71ad587a-57db-4dbd-81f0-b4fa60992816.png)
 
 <br />
 
