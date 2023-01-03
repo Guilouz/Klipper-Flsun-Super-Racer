@@ -43,6 +43,16 @@ Téléchargement du Pack : [Pack Klipper](https://github.com/Guilouz/Klipper-Fls
 
 <br />
 
+## Support
+
+Pour toute aide ou questions, veuillez-vous rendre sur le Discord de JSTECH :                                                                             
+
+<br />
+
+[![tpvewx1950311](https://user-images.githubusercontent.com/12702322/210418451-6c4f1ed7-bbd0-4b73-b3ba-5f2f1e93dd6f.png)](https://discord.gg/5gzXKdpX)
+
+<br />
+
 ## Changelog
 
 - 03/01/2022 : Première release
