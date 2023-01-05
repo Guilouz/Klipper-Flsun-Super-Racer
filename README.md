@@ -33,6 +33,7 @@ Le pack comprend :
 ## Vidéos
 
 - [On Jase ! De Klipper, je vous donne mon opinion](https://www.youtube.com/watch?v=MDrla0SI0yc&t=5s)
+- [Klipper première vidéo, je prépare mon imprimante](https://www.youtube.com/watch?v=qM-jBRMGjTc)
 - A venir...
 
 <br />
