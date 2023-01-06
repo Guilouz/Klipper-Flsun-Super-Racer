@@ -56,4 +56,5 @@ Pour toute aide ou questions, veuillez-vous rendre sur le Discord de JSTECH :
 
 ## Changelog
 
+- 06/01/2023 : Mise à jour du STL Support SR MKS & RPi
 - 03/01/2022 : Première release
