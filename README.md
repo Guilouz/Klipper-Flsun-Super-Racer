@@ -14,49 +14,6 @@ Si vous aimez mon travail, n'hésitez pas à me soutenir en me payant une 🍺 o
 
 <br />
 
-## Informations
+## Documentation
 
-Le pack comprend :
-  - La procédure d’installation de MainsailOS (système d’exploitation du Raspberry Pi)
-  - La procédure de connexion via le protocole SSH
-  - La procédure de mise à jour du système d’exploitation
-  - La procédure de compilation et d’installation du firmware
-  - La procédure de calibration de l’imprimante
-  - Les changements à effectuer dans les Slicers
-  - La procédure d’installation pour l’écran (KlipperScreen)
-  - La procédure d’installation ADXL du Fysetc Portable Input Shaper
-  - La procédure d’utilisation des NeoPixels
-  - Les fichiers de configurations nécessaires
-  
-<br />
-  
-## Vidéos
-
-- [On Jase ! De Klipper, je vous donne mon opinion](https://www.youtube.com/watch?v=MDrla0SI0yc&t=5s)
-- [Klipper première vidéo, je prépare mon imprimante](https://www.youtube.com/watch?v=qM-jBRMGjTc)
-- [Enfin ! J'installe Klipper dans ma Flsun SR](https://www.youtube.com/watch?v=8YD-KOxrrXk)
-- A venir...
-
-<br />
-
-## Téléchargement
-
-Téléchargement du Pack : [Pack Klipper](https://github.com/Guilouz/Klipper-Flsun-Super-Racer/archive/refs/heads/main.zip)
-
-<br />
-
-## Support
-
-Pour toute aide ou questions, veuillez-vous rendre sur le Discord de JSTECH :                                                                             
-
-<br />
-
-[![tpvewx1950311](https://user-images.githubusercontent.com/12702322/210418451-6c4f1ed7-bbd0-4b73-b3ba-5f2f1e93dd6f.png)](https://discord.gg/5gzXKdpX)
-
-<br />
-
-## Changelog
-
-- 08/01/2023 : Ajout des configurations pour cartes mères BigTreetech SKR 2.0 / Mise à jour du PDF 04 / Mise à jour des macros PID
-- 06/01/2023 : Mise à jour du STL Support SR MKS & RPi / Mise à jour des PDF 00 & 08
-- 03/01/2022 : Première release
+La documentation est disponible à cette adresse : https://guilouz.github.io/Klipper-Flsun-Super-Racer

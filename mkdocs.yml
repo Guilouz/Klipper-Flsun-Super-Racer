@@ -1,0 +1,136 @@
+site_name: Klipper - FLSUN Super Racer
+site_description: Documentation
+
+repo_name: Pack de Configurations
+repo_url: https://github.com/Guilouz/Klipper-Flsun-Super-Racer/releases
+
+theme:
+    name: material
+    language: fr
+    logo: assets/img/logo.png
+    favicon: assets/img/favicon.png
+    icon:
+        repo: material/download
+    font:
+        text: Roboto
+        code: Roboto Mono
+    palette:
+        - media: "(prefers-color-scheme: light)"
+          scheme: default
+          primary: green
+          accent: green
+          toggle:
+            icon: material/brightness-7
+            name: Dark Mode
+        - media: "(prefers-color-scheme: dark)"
+          scheme: slate
+          primary: green
+          accent: green
+          toggle:
+            icon: material/brightness-4
+            name: Light Mode
+    features:
+        - content.code.copy
+        - content.code.annotate
+        - navigation.top
+        - navigation.indexes
+        - navigation.sections
+        - search.highlight
+        - search.share
+        - search.suggest
+extra_css:
+    - ./assets/stylesheets/extra.css
+    - ./assets/stylesheets/glightbox.min.css
+extra_javascript:
+    - ./assets/javascripts/glightbox.min.js
+plugins:
+    - search
+    - glightbox:
+        touchNavigation: true
+        loop: false
+        effect: zoom
+        slide_effect: slide
+        width: 100%
+        height: auto
+        zoomable: true
+        draggable: true
+        skip_classes:
+            - zoom-off
+        auto_caption: false
+        caption_position: bottom
+copyright: Guislain Cyril &copy; Tous droits réservés
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/cc-paypal
+      link: https://www.paypal.me/CyrilGuislain
+    - icon: simple/discord
+      link: https://discord.gg/5gzXKdpX
+    - icon: simple/tiktok
+      link: https://tiktok.com/@guilouz
+    - icon: simple/twitter
+      link: https://twitter.com/Guilouz
+markdown_extensions:
+    - attr_list
+    - md_in_html
+    - meta
+    - tables
+    - def_list
+    - pymdownx.critic
+    - pymdownx.caret
+    - pymdownx.keys
+    - pymdownx.mark
+    - pymdownx.tilde
+    - pymdownx.inlinehilite
+    - pymdownx.snippets
+    - pymdownx.superfences
+    - pymdownx.highlight:
+        anchor_linenums: true
+    - pymdownx.emoji:
+        emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
+
+nav:
+    - Informations: index.md
+    - Liens utiles: liens-utiles.md
+    - Changelog: changelog.md
+    - Support: support.md
+    - Installation:
+        - Pré-Requis: installation/pre-requis.md
+        - MainsailOS: installation/mainsailos.md
+        - Connexion SSH: 
+            - Windows: installation/ssh/windows.md
+            - macOS: installation/ssh/macos.md
+        - Dépendances: installation/dependances.md
+    - Firmwares Klipper:
+        - MKS Robin Nano v3.x:
+            - Compilation: firmwares/compilation-mks-robin-nano.md
+            - Installation: firmwares/installation-mks-robin-nano.md
+        - BigTreeTech SKR 1.3:
+            - Compilation: firmwares/compilation-btt-skr1.3.md
+            - Installation: firmwares/installation-btt-skr1.3.md
+        - BigTreeTech SKR 2.0:
+            - Compilation: firmwares/compilation-btt-skr2.0.md
+            - Installation: firmwares/installation-btt-skr2.0.md
+    - Configurations:
+        - Récupération du Serial USB: configurations/recuperation-du-serial-usb.md
+        - Installation des fichiers: configurations/fichiers-de-configuration.md
+        - Changements coté Slicers:
+            - GCode de Début / Fin: configurations/gcode-de-debut-fin.md
+            - Rétraction Firmware: configurations/retraction-firmware.md
+            - Envoyer un Gcode vers Mainsail: configurations/envoi-gcode-mainsail.md
+        - Ecran avec KlipperScreen: configurations/ecran-avec-klipperscreen.md
+        - ADXL: configurations/adxl.md
+        - NeoPixels: configurations/neopixels.md
+        - Thème Mainsail: configurations/theme-mainsail.md
+        - Fixer l'adresse IP du Raspberry Pi: configurations/fixer-adresse-ip.md
+    - Calibrations de l'imprimante: 
+        - Calibration Extrudeur: calibrations/extrudeur.md
+        - Calibration PID: calibrations/pid.md
+        - Mesure du Z-Offset: calibrations/zoffset.md
+        - Calibration EndStops: calibrations/endstops.md
+        - Calibration Delta Automatique: calibrations/delta-automatique.md
+        - Nivellement du plateau: calibrations/nivellement.md
+        - Input Shaping: calibrations/input-shaping.md
+        - Pressure Advance: calibrations/pressure-advance.md
+        - Explications des fichiers: calibrations/explications-des-fichiers.md
