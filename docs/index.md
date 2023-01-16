@@ -18,8 +18,6 @@ Le pack comprend :
 - Les fichiers de configuration pour les cartes mères **MKS Robin Nano V3.0/V3.1** en version **Stock**
 - Les fichiers de configuration pour les cartes mères **MKS Robin Nano V3.0/V3.1** + **Bondtech LGX Lite**
 - Les fichiers de configuration pour les cartes mères **MKS Robin Nano V3.0/V3.1** + **Bondtech LGX Lite** + **TriangleLab CHC Pro**
-- Certains STL nécessaires
-
 
 <br />
 
