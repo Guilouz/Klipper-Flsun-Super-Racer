@@ -134,9 +134,18 @@ sudo nano /boot/config.txt
 ``` yaml title="config.txt"
 ## Splashcreen settings
 initramfs initramfs.img
-dtoverlay=disable-pcie-overlay
 disable_splash=1
 boot_delay=0
+```
+
+{==
+
+:warning: Ajoutez cette ligne en plus si vous utilisez un Raspberry Pi CM4.
+
+==}
+
+``` yaml title="config.txt"
+dtoverlay=disable-pcie-overlay
 ```
 
 ![config](../assets/img/configurations/config-1.png){ width="600" }
