@@ -17,7 +17,7 @@ hide:
 
 ==}
 
-- Renommez-le fichier **klipper.bin** en **firmware.bin**.
+- Renommez-le fichier **klipper.bin** en {==**firmware.bin**==}.
 
 - Copiez le firmware **firmware.bin** à la racine d'une carte microSD formatée en **FAT32** et une taille d’allocation de **4096**.
 
