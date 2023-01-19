@@ -197,7 +197,7 @@ Macro {==CANCEL_PRINT==} : Permet d’annuler l’impression en cours.
 
 ==}
 
-- Macro - Macro {==SECURITY_OFFSET==} : Permet d'appliquer un Offset de sécurité de 3 mm.
+- Macro - Macro {==SECURITY_OFFSET==} : Permet d'appliquer un Offset de sécurité de 2 mm.
 
 {==
 
