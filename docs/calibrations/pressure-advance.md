@@ -29,7 +29,7 @@ SET_VELOCITY_LIMIT SQUARE_CORNER_VELOCITY=1 ACCEL=500
 
 ==}
 
-- Pous saisissez cette commande :
+- Puis saisissez cette commande :
 
 **Si vous êtes en Direct Drive :**
 
