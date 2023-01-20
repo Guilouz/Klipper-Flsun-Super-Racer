@@ -87,6 +87,6 @@ square_corner_velocity: 5.0
 
 Vous trouverez plus d'informations sur la documentation officielle : :material-web: <a href="https://www.klipper3d.org/Measuring_Resonances.html#measuring-the-resonances" target="blank">Mesasuring Resonances | Klipper</a>
 
-A noter que ces mesurances peuvent également être faites sans ADXL, cependant cela reste moins précis. Voir la documentation officielle : :material-web: <a href="https://www.klipper3d.org/Resonance_Compensation.html" target="blank">Resonance Compensation | Klipper</a>
+A noter que ces mesures peuvent également être faites sans ADXL, cependant cela reste moins précis. Voir la documentation officielle : :material-web: <a href="https://www.klipper3d.org/Resonance_Compensation.html" target="blank">Resonance Compensation | Klipper</a>
 
 <br />
