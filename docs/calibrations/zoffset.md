@@ -67,7 +67,7 @@ SECURITY_OFFSET
 
 ![Z-Offset](../assets/img/calibrations/zoffset-3.png){ width="400" }
 
-- Vous trouverez un STL de test de première couche ici : <a href="https://github.com/Guilouz/Klipper-Flsun-Super-Racer/raw/main/Downloads/First_Layer_Test.stl" target="_blank">First_Layer_Test.stl</a>
+- Vous trouverez un STL de test de première couche ici : :material-download: <a href="https://github.com/Guilouz/Klipper-Flsun-Super-Racer/raw/main/Downloads/First_Layer_Test.stl" target="_blank">First_Layer_Test.stl</a>
 
 <br />
 
