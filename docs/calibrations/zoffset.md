@@ -55,7 +55,7 @@ SECURITY_OFFSET
 
 ==}
 
-- Démarrez ensuite une impression et ajustez la première couche à l'aide des babysteps via le bouton **Ajustements** de KlipperScreen ou via la section **Tête d'impression** de Mainsail :
+- Après avoir effectué toutes les calibrations de l'imprimante, démarrez ensuite une impression et ajustez la première couche à l'aide des babysteps via le bouton **Ajustements** de KlipperScreen ou via la section **Tête d'impression** de Mainsail :
 
 ![Z-Offset](../assets/img/calibrations/zoffset-2.png){ width="400" }
 
