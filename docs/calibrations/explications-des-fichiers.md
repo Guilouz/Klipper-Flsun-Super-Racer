@@ -125,6 +125,14 @@ Macro {==CANCEL_PRINT==} : Permet d’annuler l’impression en cours.
 
 ==}
 
+- Macro {==PRESSURE_ADVANCE==} : Permet de lancer les commandes nécessaires au test de Pressure Advance.
+
+{==
+
+:octicons-info-16: Cette macro peut être lancée par l’utilisateur.
+
+==}
+
 - Macro {==CALIBRATION_PID_BED_65==} : Permet d’effectuer une calibration du PID du plateau à 65 C° par défaut. Il est possible de choisir la température de calibration en cliquant sur la flèche de la macro.
 
 {==

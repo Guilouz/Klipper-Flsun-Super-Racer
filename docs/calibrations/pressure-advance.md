@@ -17,31 +17,17 @@ Afin de calibrer le Pressure Advance, l'imprimante doit être configurée et op�
  
     Utilisez une vitesse élevée (par exemple, 100 mm/s), un remplissage nul et une hauteur de couche grossière (la hauteur de couche doit être d'environ 75 % du diamètre de la buse). Assurez-vous que tout "contrôle d'accélération dynamique" est désactivé dans le slicer.
 
-- Avant de démarrer l'impression, il est nécessaire de préparer Klipper. Pour cela saisissez cette commande dans l'invite de commande de Mainsail :
+- Avant de démarrer l'impression, il est nécessaire de préparer Klipper au test de Pressure Advance. Pour cela, lancez la macro suivante :
 
 ``` yaml
-SET_VELOCITY_LIMIT SQUARE_CORNER_VELOCITY=1 ACCEL=500
+PRESSURE_ADVANCE
 ```
 
 {==
 
-:octicons-info-16: Cette commande ralentit le déplacement de la buse dans les coins pour accentuer les effets de la pression de l'extrudeur.
+:octicons-info-16: Cette macro ralentit le déplacement de la buse dans les coins pour accentuer les effets de la pression de l'extrudeur.
 
 ==}
-
-- Puis saisissez cette commande :
-
-**Si vous êtes en Direct Drive :**
-
-``` yaml
-TUNING_TOWER COMMAND=SET_PRESSURE_ADVANCE PARAMETER=ADVANCE START=0 FACTOR=.005
-```
-
-**Si vous êtes en Bowden :**
-
-``` yaml
-TUNING_TOWER COMMAND=SET_PRESSURE_ADVANCE PARAMETER=ADVANCE START=0 FACTOR=.020
-```
 
 - Vous pouvez ensuite démarrer l'impression du modèle de test.
 
