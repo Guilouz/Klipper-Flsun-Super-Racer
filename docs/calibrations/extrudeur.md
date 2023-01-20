@@ -19,7 +19,7 @@ Sur un extrudeur, la distance de rotation est la distance parcourue par le filam
 
 - Utilisez ensuite un pied à coulisse numérique pour mesurer la distance réelle de cette marque aussi précisément que possible. Notez cette valeur de **120** mm comme {==distance_de_la_marque==}.
 
-- Via l'invite de commande de Mainsail ou de KlipperScreen, extrudez **100 mm** de filament avec la séquence de commande suivante. Notez cette valeur de **100** mm comme {==distance_demandée==} :
+- Via la section console de Mainsail ou de KlipperScreen, extrudez **100 mm** de filament avec la séquence de commande suivante. Notez cette valeur de **100** mm comme {==distance_demandée==} :
 
 ``` yaml
 G91

@@ -17,7 +17,7 @@ Il en convient que vous ayez suivi la procédure de configuration de l'ADXL au p
 ADXL_TEST
 ```
 
-- Quelque chose comme ceci doit être renvoyé dans l’invite de commande de Mainsail :
+- Quelque chose comme ceci doit être renvoyé dans la section console de Mainsail :
 
 ``` yaml
 accelerometer values (x, y, z): 5551.544565, 7048.078582, -1924.535449
