@@ -43,7 +43,7 @@ SAUVEGARDER
 
 <br />
 
-- Suite à une mesure du Z-Offset, après toute vos autres calibrations effectuées, je recommande d'appliquer un Offset de sécurité de 3 mm via la macro :
+- Suite à une mesure du Z-Offset, après toute vos autres calibrations effectuées, je recommande d'appliquer un Offset de sécurité de 2 mm via la macro :
 
 ``` yaml
 SECURITY_OFFSET
@@ -66,6 +66,8 @@ SECURITY_OFFSET
 ==}
 
 ![Z-Offset](../assets/img/calibrations/zoffset-3.png){ width="400" }
+
+- Vous trouverez un STL de test de première couche ici : <a href="https://github.com/Guilouz/Klipper-Flsun-Super-Racer/raw/main/Downloads/First_Layer_Test.stl" target="_blank">First_Layer_Test.stl</a>
 
 <br />
 
