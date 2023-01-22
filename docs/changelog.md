@@ -6,6 +6,16 @@ hide:
 # Changelog
 
 <ul>
+  <li><b>22/01/2023</b> :
+    <ul>
+      <li>Modification des fichiers macros.cfg avec la réinitialisation du Gcode Offset avant une calibration du Z-Offset.</li>
+    </ul>
+  </li>
+  <li><b>20/01/2023</b> :
+    <ul>
+      <li>Modification des fichiers macros.cfg avec l'ajout d'une macro pour lancer les commandes nécessaires au Pressure Advance.</li>
+    </ul>
+  </li>
   <li><b>17/01/2023</b> :
     <ul>
       <li>Mise en place du site</li>
