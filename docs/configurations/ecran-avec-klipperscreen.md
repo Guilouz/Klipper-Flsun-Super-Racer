@@ -44,7 +44,7 @@ sudo reboot
 
 - Rendez-vous sur l'interface Web de Mainsail via votre navigateur Web en saisissant l'adresse IP de votre Raspberry Pi.
 
-- Ouvrez le fichier **moonraker.conf** et ajoutez ou modifiez la section **[update_manager KlipperScreen]** (si déjà présente) comme suit :
+- Ouvrez le fichier **moonraker.conf** et ajoutez ou modifiez (si déjà présente) la section **[update_manager KlipperScreen]** comme suit :
 
 ``` yaml hl_lines="4" title="moonraker.conf"
 [update_manager KlipperScreen]
