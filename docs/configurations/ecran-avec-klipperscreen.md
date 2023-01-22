@@ -16,7 +16,7 @@ Vous trouvez ici plusieurs STL de supports pour différents types d'écrans :
 
 ## Installation de KlipperScreen :
 
-- Connectez-vous en SSH puis saisissez les commandes suivantes pour installer **KlipperScreen** (une à la fois) :
+- Connectez-vous en SSH puis saisissez les commandes suivantes pour installer ma version de **KlipperScreen** (une à la fois) :
 
 ``` yaml
 git clone https://github.com/Guilouz/KlipperScreen-Flsun-Super-Racer.git
