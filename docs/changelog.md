@@ -9,6 +9,7 @@ hide:
   <li><b>22/01/2023</b> :
     <ul>
       <li>Modification des fichiers macros.cfg avec la réinitialisation du Gcode Offset avant une calibration du Z-Offset.</li>
+      <li>Mise à jour des STL pour le support écran Raspberry Pi officiel.</li>
     </ul>
   </li>
   <li><b>20/01/2023</b> :
