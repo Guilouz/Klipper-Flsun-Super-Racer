@@ -19,7 +19,7 @@ Avant d'utiliser Klipper, veuillez consulter ces documentations :
 - <a href="https://www.youtube.com/watch?v=MDrla0SI0yc&t=5s" target="_blank">On Jase ! De Klipper, je vous donne mon opinion</a>
 - <a href="https://www.youtube.com/watch?v=qM-jBRMGjTc" target="_blank">Klipper première vidéo, je prépare mon imprimante</a>
 - <a href="https://www.youtube.com/watch?v=8YD-KOxrrXk" target="_blank">Enfin ! J'installe Klipper dans ma Flsun SR</a>
-- <a href="https://www.youtube.com/watch?v=WvOvLfOC344" target="_blank">Installation de KlipperScreen pour ma Flsun SR</a>
+- <a href="https://www.youtube.com/watch?v=gb-oAeDfrio" target="_blank">Installation de KlipperScreen pour ma Flsun SR</a>
 - A venir...                                                                
 
 <br />
