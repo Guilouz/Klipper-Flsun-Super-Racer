@@ -43,7 +43,7 @@ SAUVEGARDER
 
 <br />
 
-- Suite à une mesure du Z-Offset, après toute vos autres calibrations effectuées, je recommande d'appliquer un Offset de sécurité de 2 mm via la macro :
+- Suite à une mesure du Z-Offset, après toutes les autres calibrations effectuées, je recommande d'appliquer un Offset de sécurité de 2 mm via la macro :
 
 ``` yaml
 SECURITY_OFFSET
