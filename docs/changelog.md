@@ -6,6 +6,11 @@ hide:
 # Changelog
 
 <ul>
+  <li><b>10/02/2023</b> :
+    <ul>
+      <li>Correction des fichiers macros.cfg pour la sauvegarde du Gcode Offset.</li>
+    </ul>
+  </li>
   <li><b>22/01/2023</b> :
     <ul>
       <li>Modification des fichiers macros.cfg avec la réinitialisation du Gcode Offset avant une calibration du Z-Offset.</li>
