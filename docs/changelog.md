@@ -6,6 +6,11 @@ hide:
 # Changelog
 
 <ul>
+    <li><b>11/02/2023</b> :
+    <ul>
+      <li>Amélioration des fichiers macros.cfg pour l'Offset de sécurité.</li>
+    </ul>
+  </li>
   <li><b>10/02/2023</b> :
     <ul>
       <li>Correction des fichiers macros.cfg pour la sauvegarde du Gcode Offset.</li>
