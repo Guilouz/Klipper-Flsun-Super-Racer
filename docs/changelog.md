@@ -6,6 +6,11 @@ hide:
 # Changelog
 
 <ul>
+    <li><b>18/02/2023</b> :
+    <ul>
+      <li>Correction du Z-Offset dans les fichiers de configuration.</li>
+    </ul>
+  </li>
     <li><b>11/02/2023</b> :
     <ul>
       <li>Amélioration des fichiers macros.cfg pour l'Offset de sécurité.</li>
