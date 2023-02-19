@@ -6,6 +6,11 @@ hide:
 # Changelog
 
 <ul>
+    <li><b>19/02/2023</b> :
+    <ul>
+      <li>Correction de la macro START_PRINT pour le chargement du maillage.</li>
+    </ul>
+  </li>
     <li><b>18/02/2023</b> :
     <ul>
       <li>Correction du Z-Offset dans les fichiers de configuration.</li>
