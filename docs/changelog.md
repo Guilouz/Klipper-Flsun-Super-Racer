@@ -6,6 +6,11 @@ hide:
 # Changelog
 
 <ul>
+    <li><b>22/02/2023</b> :
+    <ul>
+      <li>Ajout d'un nouveau support STL pour le FYSETC Portable Input Shaper.</li>
+    </ul>
+  </li>
     <li><b>19/02/2023</b> :
     <ul>
       <li>Correction de la macro START_PRINT pour le chargement du maillage.</li>

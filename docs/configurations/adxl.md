@@ -15,7 +15,7 @@ Ici nous allons utiliser le **Fysetc Portable Input Shaper** pour mesurer les r�
 
 - Accéléromètre Fysetc Portable Input Shaper
 - Câble USB-C vers USB (vérifiez bien le type de câble nécessaire en fonction du Raspberry Pi utilisé)
-- Support STL pour Fysetc Portable Input Shaper : :simple-thingiverse: <a href="https://www.thingiverse.com/thing:5634625" target=_blank">Thingiverse</a>
+- Support STL pour Fysetc Portable Input Shaper : :material-web: <a href="https://www.printables.com/model/405796-flsun-super-racer-fysetc-portable-input-shaper-mou" target=_blank">Printables</a>
 
 {==
 
