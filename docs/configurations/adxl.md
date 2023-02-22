@@ -81,10 +81,6 @@ sudo mount /dev/sda1 /mnt
 sudo cp /home/pi/klipper/out/klipper.uf2 /mnt/
 ```
 
-``` yaml
-sudo umount /mnt clean
-```
-
 - Saisissez maintenant cette commande pour récupérer le serial USB de l’accéléromètre :
   
 ``` yaml
