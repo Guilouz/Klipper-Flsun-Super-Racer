@@ -56,7 +56,7 @@ SAUVEGARDER
 
 - Rendez-vous dans l'onglet **Machine** sur le menu latéral gauche, ouvrez le fichier **printer.cfg** et modifiez la ligne **max_accel** de la section **Paramètres Imprimante** en reportant la plus petite des deux valeurs d'accélération maximum recommandées obtenue :
 
-``` yaml hl_lines="8" title="printer.cfg"
+``` yaml hl_lines="8 9" title="printer.cfg"
 ########################################
 # Paramètres Imprimante
 ########################################
