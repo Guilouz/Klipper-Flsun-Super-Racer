@@ -81,7 +81,7 @@ sudo mount /dev/sda1 /mnt
 sudo cp /home/pi/klipper/out/klipper.uf2 /mnt/
 ```
 
-- Débranchez et rebranchez maintenant l’accéléromètre, sans maintenir le bouton cette fois pour le redémarrer en mode normal.
+- Après cette commande l’accéléromètre va redémarrer de lui même en mode normal.
 
 - Saisissez maintenant cette commande pour récupérer le serial USB de l’accéléromètre :
   
