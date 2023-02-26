@@ -20,7 +20,7 @@ Avant d'utiliser Klipper, veuillez consulter ces documentations :
 - <a href="https://www.youtube.com/watch?v=qM-jBRMGjTc" target="_blank">Klipper première vidéo, je prépare mon imprimante</a>
 - <a href="https://www.youtube.com/watch?v=8YD-KOxrrXk" target="_blank">Enfin ! J'installe Klipper dans ma Flsun SR</a>
 - <a href="https://www.youtube.com/watch?v=gb-oAeDfrio" target="_blank">Installation de KlipperScreen pour ma Flsun SR</a>
-- A venir...                                                                
+- <a href="https://www.youtube.com/watch?v=BhEWXpf3hUA" target="_blank">Installation de l'ADXL sur la Flsun SR</a>                                                                
 
 <br />
 
