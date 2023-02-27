@@ -71,7 +71,7 @@ SAUVEGARDER
 kinematics: delta
 max_velocity: 300
 max_accel: 3700
-max_accel_to_decel: 2000
+max_accel_to_decel: 1850
 square_corner_velocity: 5.0
 ```
 
