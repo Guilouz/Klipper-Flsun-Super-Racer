@@ -56,6 +56,12 @@ SAUVEGARDER
 
 - Rendez-vous dans l'onglet **Machine** sur le menu latéral gauche, ouvrez le fichier **printer.cfg** et modifiez la ligne **max_accel** de la section **Paramètres Imprimante** en reportant la plus petite des deux valeurs d'accélération maximum recommandées obtenue :
 
+{==
+
+:octicons-info-16: A noter également que le paramètre **max_accel_to_decel** doit généralement être la moitié du paramètre **max_accel**.
+  
+==}
+
 ``` yaml hl_lines="8 9" title="printer.cfg"
 ########################################
 # Paramètres Imprimante
@@ -68,12 +74,6 @@ max_accel: 3700
 max_accel_to_decel: 2000
 square_corner_velocity: 5.0
 ```
-
-{==
-
-:octicons-info-16: A noter également que le paramètre **max_accel_to_decel** doit généralement être la moitié du paramètre **max_accel**.
-  
-==}
 
 - Commentez (ajoutez un #) devant la ligne suivante dans le fichier **printer.cfg** pour désactiver la prise en charge de l’ADXL :
 
