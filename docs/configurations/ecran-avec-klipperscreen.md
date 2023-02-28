@@ -14,7 +14,7 @@ Vous trouvez ici plusieurs STL de supports pour différents types d'écrans :
 - :material-download: <a href="https://github.com/Guilouz/Klipper-Flsun-Super-Racer/raw/main/Downloads/Support_Ecran_Waveshare_7inch_Capacitive_Touch_Screen_LCD_(H)_by_snowjo67500.7z" target="_blank">Support Ecran Waveshare 7inch Capacitive Touch Screen LCD (H)</a>
 
 
-## Installation de KlipperScreen :
+<h2 style="color:#86be7c"><b>Installation de KlipperScreen :</b></h2>
 
 - Connectez-vous en SSH puis saisissez les commandes suivantes pour installer ma version de **KlipperScreen** (une à la fois) :
 
@@ -60,7 +60,7 @@ install_script: scripts/KlipperScreen-install.sh
 
 <br />
 
-## Installation du logo de démarrage :
+<h2 style="color:#86be7c"><b>Installation du logo de démarrage :</b></h2>
 
 - Cette étape permet d'afficher un logo de démarrage à la place des textes de démarrage du Rapsberry Pi jusqu’à l’apparition du menu KlipperScreen :
 
@@ -176,7 +176,7 @@ sudo reboot
 
 ==}
 
-### Pour les écrans Waveshare 7inch Capacitive Touch Screen LCD (H) :
+<h2 style="color:#86be7c"><b>Pour les écrans Waveshare 7inch Capacitive Touch Screen LCD (H) :</b></h2>
 
 - Il est également nécessaire d’ajouter cela au début du fichier :
 
@@ -188,7 +188,7 @@ hdmi_mode=87
 hdmi_cvt 1024 600 60 6 0 0
 ```
 
-### Pour les écrans BigTreeTech HDMI5/HDMI7 :
+<h2 style="color:#86be7c"><b>Pour les écrans BigTreeTech HDMI5/HDMI7 :</b></h2>
 
 - Il est également nécessaire d’ajouter cela au début du fichier  :
 

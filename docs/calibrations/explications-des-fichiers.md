@@ -5,7 +5,7 @@ hide:
 
 # Explication des fichiers
 
-## Fichiers de configurations :
+<h2 style="color:#86be7c"><b>Fichiers de configurations :</b></h2>
 
 - Fichier {==adxl_345.cfg==} : Contient les paramètres de l’accéléromètre.
 
@@ -27,7 +27,7 @@ hide:
 
 - Fichier {==variables.cfg==} : Contient la valeur du Gcode Offset sauvegardée.
 
-## Macros :
+<h2 style="color:#86be7c"><b>Macros :</b></h2>
 
 - Macro {==START_PRINT==} : Contient le G-Code de démarrage.
 

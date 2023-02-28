@@ -13,7 +13,7 @@ Sur un extrudeur, la distance de rotation est la distance parcourue par le filam
 
 ==}
 
-## Procédure :
+<h2 style="color:#86be7c"><b>Procédure :</b></h2>
 
 - Utilisez un marqueur pour placer une marque sur le filament à **120 mm** de l'entrée de l'extrudeur.
 
@@ -61,7 +61,7 @@ filament_diameter: 1.750
 
 - Remplacez ensuite la nouvelle valeur dans le fichier **printer.cfg** en arrondissant la nouvelle **rotation_distance** à trois décimales.
 
-## Exemple :
+<h2 style="color:#86be7c"><b>Exemple :</b></h2>
 
 - Après avoir extrudé 100 mm, je mesure une distance de **18** mm entre l’entrée de mon extrudeur et le trait sur le filament.
 

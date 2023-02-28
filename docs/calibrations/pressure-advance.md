@@ -11,7 +11,7 @@ Afin de calibrer le Pressure Advance, l'imprimante doit être configurée et op�
 
 <br />
 
-## Préparation au test :
+<h2 style="color:#86be7c"><b>Préparation au test :</b></h2>
 
  - Utilisez un slicer pour générer le Gcode de ce modèle : :material-download: <a href="https://www.klipper3d.org/prints/square_tower.stl" target="_blank">square_tower.stl</a>
  
@@ -33,7 +33,7 @@ PRESSURE_ADVANCE
 
 <br />
 
-## Interprétation des résultats :
+<h2 style="color:#86be7c"><b>Interprétation des résultats :</b></h2>
 
 Une fois entièrement imprimé, le test d'impression ressemble à cela :
 

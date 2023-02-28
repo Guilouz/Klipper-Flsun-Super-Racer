@@ -10,7 +10,7 @@ La Rétraction Firmware donne un avantage comparé à la rétraction Slicer, ell
 Un même modèle peut donc être imprimé avec des paramètres de rétraction différents sans nécessité d'être reslicé.
 
 
-## Pour Cura :
+<h2 style="color:#86be7c"><b>Pour Cura :</b></h2>
 
 - Il est nécessaire d'installer le plugin **Klipper Settings Plugin** disponible dans le Pack (sources : :simple-github: <a href="https://github.com/jjgraphix/KlipperSettingsPlugin" target="_blank">Github</a>).
 
@@ -25,7 +25,7 @@ Un même modèle peut donc être imprimé avec des paramètres de rétraction di
 ![Rétraction Cura](../assets/img/configurations/retraction-cura.png){ width="400" }
 
 
-## Pour PrusaSlicer :
+<h2 style="color:#86be7c"><b>Pour PrusaSlicer :</b></h2>
 
 - Il est juste nécessaire d'activer le paramètre **Utiliser la rétraction du firmware** depuis l’onglet **Réglages de l’imprimante** --> **Général** comme cela :
 

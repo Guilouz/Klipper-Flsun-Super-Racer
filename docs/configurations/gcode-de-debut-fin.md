@@ -10,7 +10,7 @@ Il est nécessaire de modifier votre Gcode de Début et de Fin dans votre Slicer
 Cela a pour avantage de pouvoir imprimer un même modèle avec des Gcodes de Début et de Fin différents.
 
 
-## Pour Cura :
+<h2 style="color:#86be7c"><b>Pour Cura :</b></h2>
 
 - Gcode de démarrage :
 
@@ -31,7 +31,7 @@ START_PRINT BED_TEMP={material_bed_temperature_layer_0} EXTRUDER_TEMP={material_
 END_PRINT
 ```
 
-## Pour PrusaSlicer / SuperSlicer :
+<h2 style="color:#86be7c"><b>Pour PrusaSlicer / SuperSlicer :</b></h2>
 
 - Gcode de démarrage :
 
@@ -47,7 +47,7 @@ M190 S[first_layer_bed_temperature]
 END_PRINT
 ```
 
-## Pour LycheeSlicer :
+<h2 style="color:#86be7c"><b>Pour LycheeSlicer :</b></h2>
 
 - Gcode de démarrage :
 
@@ -61,7 +61,7 @@ START_PRINT BED_TEMP={bed_temp} EXTRUDER_TEMP={temp}
 END_PRINT
 ```
 
-## Pour Simplify3D :
+<h2 style="color:#86be7c"><b>Pour Simplify3D :</b></h2>
 
 - Gcode de démarrage :
 

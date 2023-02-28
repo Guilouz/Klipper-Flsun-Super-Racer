@@ -11,15 +11,15 @@ hide:
 
 - Il est important d’utiliser des LED **5V WS2812B** car elles sont pilotables.
 
-## Câblage sur les cartes mères MKS Robin Nano V3.0/V3.1 :
+<h2 style="color:#86be7c"><b>Câblage sur les cartes mères MKS Robin Nano V3.0/V3.1 :</b></h2>
 
 ![NeoPixels](../assets/img/configurations/neopixels-nanov3.png){ width="600" }
 
-## Câblage sur les cartes mères BigTreeTech SKR 1.3 :
+<h2 style="color:#86be7c"><b>Câblage sur les cartes mères BigTreeTech SKR 1.3 :</b></h2>
 
 ![NeoPixels](../assets/img/configurations/neopixels-skr1.3.png){ width="600" }
 
-## Câblage sur les cartes mères BigTreeTech SKR 2.0 :
+<h2 style="color:#86be7c"><b>Câblage sur les cartes mères BigTreeTech SKR 2.0 :</b></h2>
 
 ![NeoPixels](../assets/img/configurations/neopixels-skr2.0.png){ width="600" }
 

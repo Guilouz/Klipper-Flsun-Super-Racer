@@ -8,7 +8,7 @@ hide:
 Cette fonctionnalité permet d'envoyer directement vos fichiers Gcodes vers votre Raspberry Pi.
 
 
-## Pour Cura :
+<h2 style="color:#86be7c"><b>Pour Cura :</b></h2>
 
 - Démarrez Cura et rendez-vous sur **Marché en ligne** puis faites une recherche du plug-in **Moonraker Connection** et cliquez sur **Installer** :
 
@@ -40,7 +40,7 @@ Cette fonctionnalité permet d'envoyer directement vos fichiers Gcodes vers votr
 
 <br />
 
-## Pour PrusaSlicer :
+<h2 style="color:#86be7c"><b>Pour PrusaSlicer :</b></h2>
 
 - Cliquez sur les réglages de l'imprimante puis sur **Ajouter une imprimante physique** :
 
