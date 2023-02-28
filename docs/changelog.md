@@ -6,6 +6,11 @@ hide:
 # Changelog
 
 <ul>
+    <li><b>28/02/2023</b> :
+    <ul>
+      <li>Ajout d'une section pour la fonction M600.</li>
+    </ul>
+  </li>
     <li><b>22/02/2023</b> :
     <ul>
       <li>Ajout d'un nouveau support STL pour le FYSETC Portable Input Shaper.</li>
