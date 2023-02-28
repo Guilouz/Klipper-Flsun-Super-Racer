@@ -133,5 +133,5 @@ nav:
         - Nivellement du plateau: calibrations/nivellement.md
         - Input Shaping: calibrations/input-shaping.md
         - Pressure Advance: calibrations/pressure-advance.md
-        - M600: calibrations/m600.md
+        - M600 (Changement de filament): calibrations/m600.md
         - Explications des fichiers: calibrations/explications-des-fichiers.md
