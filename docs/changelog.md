@@ -6,6 +6,12 @@ hide:
 # Changelog
 
 <ul>
+  </li>
+    <li><b>05/03/2023</b> :
+    <ul>
+      <li>Correction de la macro START_PRINT pour le chargement du maillage.</li>
+    </ul>
+  </li>
     <li><b>28/02/2023</b> :
     <ul>
       <li>Ajout d'une section pour la fonction M600.</li>
