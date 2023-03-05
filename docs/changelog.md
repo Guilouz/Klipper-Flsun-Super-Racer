@@ -9,7 +9,7 @@ hide:
   </li>
     <li><b>05/03/2023</b> :
     <ul>
-      <li>Correction de la macro START_PRINT pour le chargement du maillage.</li>
+      <li>Modification des fichiers macros.cfg pour charger le maillage par défaut au démarrage de Klipper.</li>
     </ul>
   </li>
     <li><b>28/02/2023</b> :
