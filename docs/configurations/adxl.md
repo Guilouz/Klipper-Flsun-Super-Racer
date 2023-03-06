@@ -95,7 +95,7 @@ ls /dev/serial/by-id/*
 
 {==
 
-:octicons-info-16: Si ce n'est pas le cas cela signifie que le firmware de l'ADXL n'a pas été correctement flashé (cela peut arriver avec certaines versions). Il est alors nécessaire de le brancher sur votre ordinateur en maintenant le bouton enfoncé et d'y copier le firmware nommé <b><i>klipper.uf2</i></b> récupéré dans le dossier <b><i>/home/pi/Klipper/out</i></b>.
+:octicons-info-16: Si ce n'est pas le cas cela signifie que le firmware de l'ADXL n'a pas été correctement flashé (cela peut arriver avec certaines versions). Il est alors nécessaire de le brancher sur votre ordinateur en maintenant le bouton enfoncé et d'y copier le firmware nommé <b><i>klipper.uf2</i></b> récupéré dans le dossier <b><i>/home/pi/Klipper/out</i></b> puis de le rebrancher sur le Raspberry Pi une fois redémarré.
 
 ==}
   
