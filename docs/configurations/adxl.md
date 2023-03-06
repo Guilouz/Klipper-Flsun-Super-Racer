@@ -93,6 +93,14 @@ ls /dev/serial/by-id/*
 
 ![Fysetc Portable Input Shaper](../assets/img/configurations/pis-3.png){ width="600" }
 
+{==
+
+:octicons-info-16: Si ce n'est pas le cas cela signifie que le firmware de l'ADXL n'a pas été correctement flashé (cela peut arriver avec certaines versions). Il est alors nécessaire de le brancher sur votre ordinateur en maintenant le bouton enfoncé et d'y copier le firmware nommé <b><i>klipper.uf2</i></b> récupéré dans le dossier <b><i>/home/pi/Klipper/out</i></b>.
+
+==}
+  
+<br />
+
 - Rendez-vous sur l'interface Web de Mainsail via votre navigateur Web en saisissant l'adresse IP de votre Raspberry Pi.
 
 - Rendez-vous dans l'onglet **Machine**, ouvrez le fichier **adxl345.cfg** et modifiez la section **[mcu PIS]** :
