@@ -7,6 +7,12 @@ hide:
 
 <ul>
   </li>
+    <li><b>12/03/2023</b> :
+    <ul>
+      <li>Amélioration du support pour la fonction Gcode Arc.</li>
+    </ul>
+  </li>
+  </li>
     <li><b>05/03/2023</b> :
     <ul>
       <li>Modification des fichiers macros.cfg pour charger le maillage par défaut au démarrage de Klipper.</li>
