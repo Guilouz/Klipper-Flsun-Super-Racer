@@ -19,7 +19,7 @@ Vous trouvez ici plusieurs STL de supports pour différents types d'écrans :
 - Connectez-vous en SSH puis saisissez les commandes suivantes pour installer ma version de **KlipperScreen** (une à la fois) :
 
 ``` yaml
-git clone https://github.com/Guilouz/KlipperScreen-Flsun-Super-Racer.git
+cd ~ && git clone https://github.com/Guilouz/KlipperScreen-Flsun-Super-Racer.git
 ```
 
 ``` yaml
@@ -27,11 +27,7 @@ sudo mv /home/pi/KlipperScreen-Flsun-Super-Racer /home/pi/KlipperScreen
 ```
 
 ``` yaml
-cd ~/KlipperScreen
-```
-
-``` yaml
-./scripts/KlipperScreen-install.sh
+./KlipperScreen/scripts/KlipperScreen-install.sh
 ```
 
 - Patientez le temps de l’installation, cela peut prendre plusieurs minutes.
