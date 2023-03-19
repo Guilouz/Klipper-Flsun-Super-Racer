@@ -98,7 +98,7 @@ enable_object_processing: True
 
 {==
 
-:octicons-info-16: Plus d'informations sur la documentation officielle : :material-web: <a href="https://docs.mainsail.xyz/features/exclude_objects" target="_blank">Exclude Objects | Mainsail</a>
+:octicons-info-16: Plus d'informations sur la documentation officielle : :material-web: <a href="https://docs.mainsail.xyz/overview/features/exclude-objects" target="_blank">Exclude Objects | Mainsail</a>
 
 ==}
 
