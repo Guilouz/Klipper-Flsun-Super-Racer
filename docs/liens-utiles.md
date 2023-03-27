@@ -27,7 +27,7 @@ Avant d'utiliser Klipper, veuillez consulter ces documentations :
   </tr>
   <tr align="center">
     <td align="center"><a href="https://www.youtube.com/watch?v=YHQU4l75Mbs" target="_blank"><img src="https://user-images.githubusercontent.com/12702322/221385888-0b3d7ade-7598-4b3f-8642-6bf82e9ba02d.jpg" width="300"><br />Installation de l'ADXL sur la Flsun SR</a></td>
-    <td align="center"><a href="https://www.youtube.com/watch?v=8KywJ60J74o" target="_blank"><img src="https://user-images.githubusercontent.com/12702322/221385888-0b3d7ade-7598-4b3f-8642-6bf82e9ba02d.jpg" width="300"><br />Connecter son imprimante à distance ! C'est possible avec Tailscale.</a></td>
+    <td align="center"><a href="https://www.youtube.com/watch?v=8KywJ60J74o" target="_blank"><img src="https://user-images.githubusercontent.com/12702322/227813318-d80c0407-db25-4d93-9ab1-786ac225d144.jpg" width="300"><br />Connecter son imprimante à distance ! C'est possible avec Tailscale.</a></td>
   </tr>
 </table>
 
