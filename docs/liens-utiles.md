@@ -26,8 +26,8 @@ Avant d'utiliser Klipper, veuillez consulter ces documentations :
     <td align="center"><a href="https://www.youtube.com/watch?v=gb-oAeDfrio" target="_blank"><img src="https://user-images.githubusercontent.com/12702322/221385864-416bb49c-b85b-4cef-bf39-8b784012c6d0.jpg" width="300"><br />Installation de KlipperScreen pour ma Flsun SR</a></td>
   </tr>
   <tr align="center">
-    <td align="center"><a href="https://www.youtube.com/watch?v=YHQU4l75Mbs" target="_blank"><img src="https://user-images.githubusercontent.com/12702322/221385888-0b3d7ade-7598-4b3f-8642-6bf82e9ba02d.jpg" width="300"><br />Installation de l'ADXL sur la Flsun SR</a>   </td>
-    <td align="center"></td>
+    <td align="center"><a href="https://www.youtube.com/watch?v=YHQU4l75Mbs" target="_blank"><img src="https://user-images.githubusercontent.com/12702322/221385888-0b3d7ade-7598-4b3f-8642-6bf82e9ba02d.jpg" width="300"><br />Installation de l'ADXL sur la Flsun SR</a></td>
+    <td align="center"><a href="https://www.youtube.com/watch?v=8KywJ60J74o" target="_blank"><img src="https://user-images.githubusercontent.com/12702322/221385888-0b3d7ade-7598-4b3f-8642-6bf82e9ba02d.jpg" width="300"><br />Connecter son imprimante à distance ! C'est possible avec Tailscale.</a></td>
   </tr>
 </table>
 
