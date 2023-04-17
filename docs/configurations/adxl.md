@@ -32,6 +32,10 @@ sudo apt update
 ```
 
 ``` yaml
+sudo apt upgrade
+```
+
+``` yaml
 sudo apt install python3-numpy python3-matplotlib libatlas-base-dev
 ```
 
@@ -70,11 +74,7 @@ make
 - Saisissez les commandes suivantes pour installer le firmware dans l’accéléromètre (une commande à la fois) :
 
 ``` yaml
-cd ~
-```
-
-``` yaml
-sudo mount /dev/sda1 /mnt
+cd ~ && sudo mount /dev/sda1 /mnt
 ```
   
 ``` yaml

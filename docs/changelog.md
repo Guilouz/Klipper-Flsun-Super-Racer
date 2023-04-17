@@ -7,6 +7,12 @@ hide:
 
 <ul>
   </li>
+    <li><b>17/04/2023</b> :
+    <ul>
+      <li>Amélioration de l'ensemble des fichiers.</li>
+    </ul>
+  </li>
+  </li>
     <li><b>12/03/2023</b> :
     <ul>
       <li>Amélioration du support pour la fonction Gcode Arc.</li>
