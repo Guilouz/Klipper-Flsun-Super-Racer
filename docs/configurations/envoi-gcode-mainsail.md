@@ -82,7 +82,7 @@ Cette fonctionnalité permet d'envoyer directement vos fichiers Gcodes vers votr
 
 - Puis cliquez sur **Envoyer** pour télécharger le fichier G-code sur le Raspberry Pi ou sur **Imprimer** pour télécharger le fichier et l'imprimer directement :
 
-![Connexion OrcaSlicer](../assets/img/configurations/orcaslicer-connection-4.png){ width="300" }
+![Connexion OrcaSlicer](../assets/img/configurations/orcaslicer-connection-4.png){ width="400" }
 
 <br />
 
