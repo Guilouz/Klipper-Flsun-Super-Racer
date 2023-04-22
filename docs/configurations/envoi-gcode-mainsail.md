@@ -70,19 +70,19 @@ Cette fonctionnalité permet d'envoyer directement vos fichiers Gcodes vers votr
 
 - Cliquez sur l'icône WiFi à côté des paramètres de l'imprimante : 
 
-![Connexion OrcaSlicer](../assets/img/configurations/prusaslicer-connection-1.png){ width="400" }
+![Connexion OrcaSlicer](../assets/img/configurations/orcaslicer-connection-1.png){ width="400" }
 
 - Renseigner l'adresse IP de votre Raspberry Pi dans le champ **Nom d'hôte, IP ou URL** puis cliquez sur **Test** pour vérifier la connexion :
 
-![Connexion OrcaSlicer](../assets/img/configurations/prusaslicer-connection-2.png){ width="400" }
+![Connexion OrcaSlicer](../assets/img/configurations/orcaslicer-connection-2.png){ width="400" }
 
 - Une fois votre modèle slicé, cliquez sur **Impression** en haut à droite de la fenêtre :
 
-![Connexion OrcaSlicer](../assets/img/configurations/prusaslicer-connection-3.png){ width="400" }
+![Connexion OrcaSlicer](../assets/img/configurations/orcaslicer-connection-3.png){ width="400" }
 
 - Puis cliquez sur **Envoyer** pour télécharger le fichier G-code sur le Raspberry Pi ou sur **Imprimer** pour télécharger le fichier et l'imprimer directement :
 
-![Connexion OrcaSlicer](../assets/img/configurations/prusaslicer-connection-4.png){ width="300" }
+![Connexion OrcaSlicer](../assets/img/configurations/orcaslicer-connection-4.png){ width="300" }
 
 <br />
 
