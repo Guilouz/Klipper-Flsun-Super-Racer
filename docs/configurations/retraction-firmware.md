@@ -32,6 +32,14 @@ Un même modèle peut donc être imprimé avec des paramètres de rétraction di
 
 ![Rétraction PrusaSclicer / SuperSlicer](../assets/img/configurations/retraction-prusaslicer.png){ width="600" }
 
+
+<h2 style="color:#86be7c"><b>Pour OrcaSlicer :</b></h2>
+
+- Il est juste nécessaire d'activer le paramètre **Utiliser la rétraction du firmware** depuis les paramètres de l'imprimante comme cela :
+
+
+![Rétraction PrusaSclicer / SuperSlicer](../assets/img/configurations/retraction-orcaslicer.png){ width="600" }
+
 <br />
 
 Vous pouvez ensuite continuer vers la section :material-arrow-right-box: [Envoyer un Gcode vers Mainsail](../configurations/envoi-gcode-mainsail.md).
