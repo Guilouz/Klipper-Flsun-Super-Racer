@@ -75,6 +75,22 @@ START_PRINT BED_TEMP=[platform0_temperature] EXTRUDER_TEMP=[extruder0_temperatur
 END_PRINT
 ```
 
+<h2 style="color:#86be7c"><b>Pour OrcaSlicer :</b></h2>
+
+- Gcode de démarrage :
+
+``` yaml
+START_PRINT BED_TEMP=[bed_temperature_initial_layer_single] EXTRUDER_TEMP=[nozzle_temperature_initial_layer]
+M104 S[nozzle_temperature_initial_layer]
+M190 S[bed_temperature_initial_layer_single]
+```
+
+- Gcode de fin :
+
+``` yaml
+END_PRINT
+```
+
 <br />
 
 Vous pouvez ensuite continuer vers la section :material-arrow-right-box: [Utilisation de la Rétraction Firmware](../configurations/retraction-firmware.md).
