@@ -72,7 +72,7 @@ Cette fonctionnalité permet d'envoyer directement vos fichiers Gcodes vers votr
 
 ![Connexion OrcaSlicer](../assets/img/configurations/orcaslicer-connection-1.png){ width="400" }
 
-- Renseigner l'adresse IP de votre Raspberry Pi dans le champ **Nom d'hôte, IP ou URL** puis cliquez sur **Test** pour vérifier la connexion :
+- Renseignez l'adresse IP de votre Raspberry Pi dans le champ **Nom d'hôte, IP ou URL** puis cliquez sur **Test** pour vérifier la connexion :
 
 ![Connexion OrcaSlicer](../assets/img/configurations/orcaslicer-connection-2.png){ width="400" }
 
