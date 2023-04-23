@@ -33,7 +33,7 @@ theme:
         - content.code.copy
         - content.code.annotate
         - navigation.top
-        - navigation.indexes
+        - toc.integrate
         - navigation.sections
         - search.highlight
         - search.share
