@@ -91,7 +91,7 @@ markdown_extensions:
         emoji_generator: !!python/name:materialx.emoji.to_svg
     - toc:
         permalink: true
-        title: Sur cette page
+        title: On this page
 
 nav:
     - Informations: index.md
