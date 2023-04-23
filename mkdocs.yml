@@ -33,8 +33,7 @@ theme:
         - content.code.copy
         - content.code.annotate
         - navigation.top
-        - toc.integrate
-        - toc.follow
+        - navigation.indexes
         - navigation.sections
         - search.highlight
         - search.share
@@ -90,8 +89,6 @@ markdown_extensions:
     - pymdownx.emoji:
         emoji_index: !!python/name:materialx.emoji.twemoji
         emoji_generator: !!python/name:materialx.emoji.to_svg
-    - toc:
-        title: On this page
 
 nav:
     - Informations: index.md
