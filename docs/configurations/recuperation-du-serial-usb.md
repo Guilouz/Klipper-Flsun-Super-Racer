@@ -32,7 +32,7 @@ ls /dev/serial/by-id/*
 
 {==
 
-:warning: Si vous rencontrez le message **No such file or directory** lors de la tentative de récupération du serial USB, plusieurs éléments sont alors à vérifier.
+:warning: Si vous rencontrez le message **No such file or directory** lors de la tentative de récupération du serial USB, plusieurs éléments sont alors à vérifier :
 
 ==}
 
