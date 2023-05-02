@@ -74,7 +74,7 @@ sed -i '/ENV{MODALIAS}==".*/d' /lib/udev/rules.d/60-serial.rules
 sudo reboot
 ```
 
-- Après le redémarrage vous devriez pourvoir récupérer le serial via la commande :
+- Après le redémarrage vous devriez pouvoir récupérer le serial via la commande :
 
 ``` yaml
 ls /dev/serial/by-id/*
