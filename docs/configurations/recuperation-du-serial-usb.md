@@ -48,7 +48,7 @@ ls /dev/serial/by-id/*
 uname -a
 ```
 
-- Vous devriez obetenir une ligne telle que : **Linux raspberrypi xxxxxx** où les xxxxxx représentent la version du Kernel.
+- Vous devriez obtenir une ligne telle que : **Linux raspberrypi xxxxxx** où les xxxxxx représentent la version du Kernel.
 
 - Si vous possédez la version **6.1.25-V8+**, cette version rencontre actuellement un bogue connu qui peut empêcher l'affichage via l'identifiant by-id. Pour corriger cela, saisissez les commandes suivantes (une à la fois) :
 
