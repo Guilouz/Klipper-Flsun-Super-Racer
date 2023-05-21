@@ -7,6 +7,12 @@ hide:
 
 <ul>
   </li>
+    <li><b>22/05/2023</b> :
+    <ul>
+      <li>Modification des fichiers macros.cfg pour prendre en charge le nouveau menu PID sur KlipperScreen.</li>
+    </ul>
+  </li>
+  </li>
     <li><b>17/04/2023</b> :
     <ul>
       <li>Amélioration de l'ensemble des fichiers.</li>
