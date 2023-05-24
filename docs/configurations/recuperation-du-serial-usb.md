@@ -42,37 +42,21 @@ ls /dev/serial/by-id/*
 
 - Assurez-vous que le firmware Klipper de l'imprimante a été correctement flashé.
 
-- Vérifiez la version du Kernel de votre Raspberry Pi. Pour cela saisissez la commande suivante :
+- Il est également possible que vous ayez une version de udev qui a un bug connu (version : 247.3-7+deb11u2 ou 247.3-7+rpi1+deb11u2) et qui n'est pas corrigé dans les versions de MainsailOS inférieures à 1.2.0. Ce qui ne crée pas de liens symboliques /dev/serial/by-id pour votre MCU.
+
+- Pour corriger cela, saisissez la commande suivante :
 
 ``` yaml
-uname -a
+curl -sSL https://raw.githubusercontent.com/mainsail-crew/MainsailOS/develop/patches/udev-fix.sh | bash
 ```
 
-- Vous devriez obtenir une ligne telle que : **Linux raspberrypi xxxxxx** où les xxxxxx représentent la version du Kernel.
+- Cela vous demandera votre mot de passe sudo.
 
-- Si vous possédez la version **6.1.25-V8+**, cette version rencontre actuellement un bogue connu qui peut empêcher l'affichage via l'identifiant by-id. Pour corriger cela, saisissez les commandes suivantes (une à la fois) :
+{==
 
-``` yaml
-sudo su
-```
+:warning: N'EXÉCUTEZ PAS CE PATCH SI VOUS IMPRIMEZ !!!
 
-``` yaml
-sed -i '/^SUBSYSTEMS=="pci", ENV{ID_BUS}="pci".*/i SUBSYSTEMS=="usb", IMPORT{builtin}="usb_id", IMPORT{builtin}="hwdb --subsystem=usb"' /lib/udev/rules.d/60-serial.rules
-```
-
-``` yaml
-sed -i 's/^SUBSYSTEMS=="pci", ENV{ID_BUS}="pci".*/SUBSYSTEMS=="pci", ENV{ID_BUS}=="", ENV{ID_BUS}="pci", \\\
-  ENV{ID_VENDOR_ID}="$attr{vendor}", ENV{ID_MODEL_ID}="$attr{device}", \\\
-  IMPORT{builtin}="hwdb --subsystem=pci"/g' /lib/udev/rules.d/60-serial.rules
-```
-
-``` yaml
-sed -i '/ENV{MODALIAS}==".*/d' /lib/udev/rules.d/60-serial.rules
-```
-
-``` yaml
-sudo reboot
-```
+==}
 
 - Après le redémarrage vous devriez pouvoir récupérer le serial via la commande :
 
