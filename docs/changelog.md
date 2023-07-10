@@ -7,6 +7,12 @@ hide:
 
 <ul>
   </li>
+    <li><b>10/07/2023</b> :
+    <ul>
+      <li>Modification des fichiers macros.cfg pour remplacer M109/M190 par TEMPERATURE_WAIT. Cela fait simplement reprendre Klipper immédiatement après avoir atteint la température. Sinon, il attend que la température se stabilise.</li>
+    </ul>
+  </li>
+  </li>
     <li><b>27/06/2023</b> :
     <ul>
       <li>Modification des fichiers macros.cfg pour prendre en charge la nouvelle calibration PID sur le clavier de KlipperScreen.</li>
