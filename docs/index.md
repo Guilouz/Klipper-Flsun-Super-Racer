@@ -23,9 +23,7 @@ Le pack comprend :
 
 Si vous aimez mon travail, n'hésitez pas à me soutenir en me payant une 🍺 ou un ☕. Merci 🙂
 
-[Faire un don :simple-paypal: PayPal](https://www.paypal.me/CyrilGuislain){ .md-button .md-button--primary }
-
-[ ![Donate](https://github-production-user-asset-6210df.s3.amazonaws.com/12702322/259218308-192804d4-cb79-44cd-a9a9-d90664e03076.png) ](https://ko-fi.com/guilouz)
+[Faire un don :fontawesome-solid-comment-dollar:](https://ko-fi.com/guilouz){ .md-button .md-button--primary }
 
 <br />
 
