@@ -25,6 +25,8 @@ Si vous aimez mon travail, n'hésitez pas à me soutenir en me payant une 🍺 o
 
 [Faire un don :simple-paypal: PayPal](https://www.paypal.me/CyrilGuislain){ .md-button .md-button--primary }
 
+[ ![Donate](https://github-production-user-asset-6210df.s3.amazonaws.com/12702322/259218308-192804d4-cb79-44cd-a9a9-d90664e03076.png) ](https://ko-fi.com/guilouz)
+
 <br />
 
 Vous pouvez commencer par consulter la section :material-arrow-right-box: [Liens Utiles](liens-utiles.md).
