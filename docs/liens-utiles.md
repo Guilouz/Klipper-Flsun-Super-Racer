@@ -18,16 +18,16 @@ Avant d'utiliser Klipper, veuillez consulter ces documentations :
 
 <table border="0">
   <tr align="center">
-    <td align="center"><a href="https://www.youtube.com/watch?v=MDrla0SI0yc&t=5s" target="_blank"><img src="https://user-images.githubusercontent.com/12702322/221385713-e718cff3-5d35-457e-844c-250e3987fa53.jpg" width="300"><br />On Jase ! De Klipper, je vous donne mon opinion</a></td>
-    <td align="center"><a href="https://www.youtube.com/watch?v=qM-jBRMGjTc" target="_blank"><img src="https://user-images.githubusercontent.com/12702322/221385791-1a33cc8d-d69e-4b5a-bf74-aa84d8e560c6.jpg" width="300"><br />Klipper première vidéo, je prépare mon imprimante</a></td>
+    <td align="center"><img src="https://user-images.githubusercontent.com/12702322/221385713-e718cff3-5d35-457e-844c-250e3987fa53.jpg" width="300"><br /><a href="https://www.youtube.com/watch?v=MDrla0SI0yc&t=5s" target="_blank">On Jase ! De Klipper, je vous donne mon opinion</a></td>
+    <td align="center"><img src="https://user-images.githubusercontent.com/12702322/221385791-1a33cc8d-d69e-4b5a-bf74-aa84d8e560c6.jpg" width="300"><br /><a href="https://www.youtube.com/watch?v=qM-jBRMGjTc" target="_blank">Klipper première vidéo, je prépare mon imprimante</a></td>
   </tr>
   <tr align="center">
-    <td align="center"><a href="https://www.youtube.com/watch?v=8YD-KOxrrXk" target="_blank"><img src="https://user-images.githubusercontent.com/12702322/221385835-fb24ba6f-5ef5-4aa7-bf20-39326030bd23.jpg" width="300"><br />Enfin ! J'installe Klipper dans ma Flsun SR</a></td>
-    <td align="center"><a href="https://www.youtube.com/watch?v=gb-oAeDfrio" target="_blank"><img src="https://user-images.githubusercontent.com/12702322/221385864-416bb49c-b85b-4cef-bf39-8b784012c6d0.jpg" width="300"><br />Installation de KlipperScreen pour ma Flsun SR</a></td>
+    <td align="center"><img src="https://user-images.githubusercontent.com/12702322/221385835-fb24ba6f-5ef5-4aa7-bf20-39326030bd23.jpg" width="300"><br /><a href="https://www.youtube.com/watch?v=8YD-KOxrrXk" target="_blank">Enfin ! J'installe Klipper dans ma Flsun SR</a></td>
+    <td align="center"><img src="https://user-images.githubusercontent.com/12702322/221385864-416bb49c-b85b-4cef-bf39-8b784012c6d0.jpg" width="300"><br /><a href="https://www.youtube.com/watch?v=gb-oAeDfrio" target="_blank">Installation de KlipperScreen pour ma Flsun SR</a></td>
   </tr>
   <tr align="center">
-    <td align="center"><a href="https://www.youtube.com/watch?v=YHQU4l75Mbs" target="_blank"><img src="https://user-images.githubusercontent.com/12702322/221385888-0b3d7ade-7598-4b3f-8642-6bf82e9ba02d.jpg" width="300"><br />Installation de l'ADXL sur la Flsun SR</a></td>
-    <td align="center"><a href="https://www.youtube.com/watch?v=8KywJ60J74o" target="_blank"><img src="https://user-images.githubusercontent.com/12702322/227813318-d80c0407-db25-4d93-9ab1-786ac225d144.jpg" width="300"><br />Connecter son imprimante à distance ! C'est possible avec Tailscale.</a></td>
+    <td align="center"><img src="https://user-images.githubusercontent.com/12702322/221385888-0b3d7ade-7598-4b3f-8642-6bf82e9ba02d.jpg" width="300"><br /><a href="https://www.youtube.com/watch?v=YHQU4l75Mbs" target="_blank">Installation de l'ADXL sur la Flsun SR</a></td>
+    <td align="center"><img src="https://user-images.githubusercontent.com/12702322/227813318-d80c0407-db25-4d93-9ab1-786ac225d144.jpg" width="300"><br /><a href="https://www.youtube.com/watch?v=8KywJ60J74o" target="_blank">Connecter son imprimante à distance ! C'est possible avec Tailscale.</a></td>
   </tr>
 </table>
 
