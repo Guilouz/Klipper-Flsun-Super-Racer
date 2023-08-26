@@ -47,7 +47,7 @@ sudo reboot
 type: git_repo
 path: /home/pi/KlipperScreen
 origin: https://github.com/Guilouz/KlipperScreen-Flsun-Super-Racer.git
-env: /home/pi/.KlipperScreen-env/bin/python
+virtualenv: ~/.KlipperScreen-env
 requirements: scripts/KlipperScreen-requirements.txt
 install_script: scripts/KlipperScreen-install.sh
 ```
