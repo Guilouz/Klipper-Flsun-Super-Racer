@@ -7,6 +7,12 @@ hide:
 
 <ul>
   </li>
+    <li><b>09/09/2023</b> :
+    <ul>
+      <li>Amélioration de la vérification des éléments de chauffe.</li>
+    </ul>
+  </li>
+  </li>
     <li><b>29/07/2023</b> :
     <ul>
       <li>Modification des fichiers macros.cfg pour la correction du message "Move out of range" lors des PID.</li>
