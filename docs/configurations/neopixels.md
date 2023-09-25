@@ -25,11 +25,7 @@ hide:
 
 - Rendez-vous sur l'interface Web de Mainsail via votre navigateur Web en saisissant l'adresse IP de votre Raspberry Pi.
 
-- Rendez-vous dans l'onglet **Machine** puis remplacez le fichier **KlipperScreen.conf** par celui présent dans le dossier **NeoPixels** du Pack.
-
-	Cela permet d’avoir un nouveau menu de gestion des NeoPixels sur l’écran de KlipperScreen :
-
-![NeoPixels](../assets/img/configurations/neopixels-2.png){ width="600" }
+- Rendez-vous dans l'onglet **Machine**.
 
 - Ouvrez ensuite le fichier **printer.cfg** et décommentez (supprimez le #) les lignes suivantes pour activer la prise en charge des NeoPixels :
 
