@@ -31,7 +31,19 @@ hide:
 
 ![NeoPixels](../assets/img/configurations/neopixels-2.png){ width="600" }
 
-- Ouvrez ensuite le fichier **printer.cfg** et décommentez (supprimez le #) de la ligne suivante pour activer la prise en charge des NeoPixels :
+- Ouvrez ensuite le fichier **printer.cfg** et décommentez (supprimez le #) les lignes suivantes pour activer la prise en charge des NeoPixels :
+
+``` yaml title="printer.cfg"
+#[neopixel NeoPixels]
+#pin: PB2
+#chain_count: 34
+#color_order: GRB
+#initial_RED: 1.0
+#initial_GREEN: 1.0
+#initial_BLUE: 1.0
+```
+
+- Si vous désirez également activer les macros pour piloter les NeoPixels, décommentez (supprimez le #) la ligne suivante :
 
 ``` yaml title="printer.cfg"
 [include neopixels.cfg] #Activer si vous souhaitez utiliser les NeoPixels
