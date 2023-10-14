@@ -36,9 +36,9 @@ END_PRINT
 - Gcode de démarrage :
 
 ``` yaml
+M140 S0
+M104 S0
 START_PRINT BED_TEMP=[first_layer_bed_temperature] EXTRUDER_TEMP=[first_layer_temperature]
-M104 S[first_layer_temperature]
-M190 S[first_layer_bed_temperature]
 ```
 
 - Gcode de fin :
@@ -80,9 +80,9 @@ END_PRINT
 - Gcode de démarrage :
 
 ``` yaml
+M140 S0
+M104 S0
 START_PRINT BED_TEMP=[bed_temperature_initial_layer_single] EXTRUDER_TEMP=[nozzle_temperature_initial_layer]
-M104 S[nozzle_temperature_initial_layer]
-M190 S[bed_temperature_initial_layer_single]
 ```
 
 - Gcode de fin :
