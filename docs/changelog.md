@@ -7,6 +7,12 @@ hide:
 
 <ul>
   </li>
+    <li><b>05/12/2023</b> :
+    <ul>
+      <li>Modification des fichiers macros.cfg pour améliorer la macro M600 pour la reprise avec une vitesse de ventilateur correcte si < 100%.</li>
+    </ul>
+  </li>
+  </li>
     <li><b>09/09/2023</b> :
     <ul>
       <li>Amélioration de la vérification des éléments de chauffe.</li>
