@@ -49,7 +49,8 @@ path: /home/pi/KlipperScreen
 origin: https://github.com/Guilouz/KlipperScreen-Flsun-Super-Racer.git
 virtualenv: ~/.KlipperScreen-env
 requirements: scripts/KlipperScreen-requirements.txt
-install_script: scripts/KlipperScreen-install.sh
+system_dependencies: scripts/system-dependencies.json
+managed_services: KlipperScreen
 ```
 
 - Cela permet d’obtenir les futures mises à jour de ma version de KlipperScreen.
