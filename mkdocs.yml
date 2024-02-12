@@ -62,13 +62,13 @@ copyright: Guislain Cyril &copy; Tous droits réservés
 extra:
   generator: false
   social:
-    - icon: fontawesome/brands/cc-paypal
-      link: https://www.paypal.me/CyrilGuislain
+    - icon: simple/kofi
+      link: https://ko-fi.com/guilouz
     - icon: simple/discord
       link: https://discord.gg/5gzXKdpX
     - icon: simple/tiktok
       link: https://tiktok.com/@guilouz
-    - icon: simple/twitter
+    - icon: simple/x
       link: https://twitter.com/Guilouz
 markdown_extensions:
     - attr_list
@@ -87,7 +87,7 @@ markdown_extensions:
     - pymdownx.highlight:
         anchor_linenums: true
     - pymdownx.emoji:
-        emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_index: !!python/name:material.extensions.emoji.twemoji
         emoji_generator: !!python/name:materialx.emoji.to_svg
 
 nav:
