@@ -9,7 +9,7 @@ hide:
   </li>
     <li><b>16/03/2024</b> :
     <ul>
-      <li>Modification des fichiers printer.cfg pour Klipper v0.12..0.</li>
+      <li>Modification des fichiers printer.cfg pour Klipper v0.12.0.</li>
     </ul>
   </li>
   </li>
