@@ -107,7 +107,7 @@ sudo rm /home/pi/initramfs.img
 - Saisissez ensuite la commande suivante :
 
 ``` yaml
-sudo nano /boot/cmdline.txt
+sudo nano /boot/firmware/cmdline.txt
 ```
 
 - Sur la fenêtre qui s'affiche, remplacez le paramètre **console=tty1** par **console=tty3** puis ajoutez ces éléments à la fin de la ligne :
