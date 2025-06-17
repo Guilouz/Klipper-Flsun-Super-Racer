@@ -1,0 +1,1876 @@
+
+<!doctype html>
+<html lang="fr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentation">
+      
+      
+      
+      
+        <link rel="prev" href="../pre-requis/">
+      
+      
+        <link rel="next" href="../ssh/windows/">
+      
+      
+      <link rel="icon" href="../../assets/img/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>MainsailOS - Klipper - FLSUN Super Racer</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/glightbox.min.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="green">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#installation-de-mainsailos" class="md-skip">
+          Aller au contenu
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="En-tête">
+    <a href="../.." title="Klipper - FLSUN Super Racer" class="md-header__button md-logo" aria-label="Klipper - FLSUN Super Racer" data-md-component="logo">
+      
+  <img src="../../assets/img/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Klipper - FLSUN Super Racer
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              MainsailOS
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="green"  aria-label="Dark Mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Dark Mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="green" data-md-color-accent="green"  aria-label="Light Mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Light Mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Rechercher" placeholder="Rechercher" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Recherche">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Partager" aria-label="Partager" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Effacer" aria-label="Effacer" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initialisation de la recherche
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Guilouz/Klipper-Flsun-Super-Racer/releases" title="Aller au dépôt" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Pack de Configurations
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Klipper - FLSUN Super Racer" class="md-nav__button md-logo" aria-label="Klipper - FLSUN Super Racer" data-md-component="logo">
+      
+  <img src="../../assets/img/logo.png" alt="logo">
+
+    </a>
+    Klipper - FLSUN Super Racer
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Guilouz/Klipper-Flsun-Super-Racer/releases" title="Aller au dépôt" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Pack de Configurations
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Informations
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../liens-utiles/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Liens utiles
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../changelog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Changelog
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../support/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Support
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Installation
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Installation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pre-requis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Pré-Requis
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    MainsailOS
+    
+  </span>
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_3" id="__nav_5_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Connexion SSH
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            Connexion SSH
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ssh/windows/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Windows
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ssh/macos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    macOS
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dependances/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Dépendances
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Firmwares Klipper
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Firmwares Klipper
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_1" id="__nav_6_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    MKS Robin Nano v3.x
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_1">
+            <span class="md-nav__icon md-icon"></span>
+            MKS Robin Nano v3.x
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../firmwares/compilation-mks-robin-nano/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Compilation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../firmwares/installation-mks-robin-nano/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Installation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    BigTreeTech SKR 1.3
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_2">
+            <span class="md-nav__icon md-icon"></span>
+            BigTreeTech SKR 1.3
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../firmwares/compilation-btt-skr1.3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Compilation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../firmwares/installation-btt-skr1.3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Installation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    BigTreeTech SKR 2.0
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_3">
+            <span class="md-nav__icon md-icon"></span>
+            BigTreeTech SKR 2.0
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../firmwares/compilation-btt-skr2.0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Compilation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../firmwares/installation-btt-skr2.0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Installation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Configurations
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Configurations
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../configurations/recuperation-du-serial-usb/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Récupération du Serial USB
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../configurations/fichiers-de-configuration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Installation des fichiers
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_3" id="__nav_7_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Changements coté Slicers
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_3">
+            <span class="md-nav__icon md-icon"></span>
+            Changements coté Slicers
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../configurations/gcode-de-debut-fin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    GCode de Début / Fin
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../configurations/retraction-firmware/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Rétraction Firmware
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../configurations/envoi-gcode-mainsail/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Envoyer un Gcode vers Mainsail
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../configurations/ecran-avec-klipperscreen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ecran avec KlipperScreen
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../configurations/adxl/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ADXL
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../configurations/neopixels/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    NeoPixels
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../configurations/theme-mainsail/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Thème Mainsail
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../configurations/fixer-adresse-ip/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Fixer l'adresse IP du Raspberry Pi
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Calibrations de l'imprimante
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Calibrations de l'imprimante
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../calibrations/extrudeur/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Calibration Extrudeur
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../calibrations/pid/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Calibration PID
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../calibrations/zoffset/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Mesure du Z-Offset
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../calibrations/endstops/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Calibration EndStops
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../calibrations/delta-automatique/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Calibration Delta Automatique
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../calibrations/nivellement/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Nivellement du plateau
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../calibrations/input-shaping/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Input Shaping
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../calibrations/pressure-advance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Pressure Advance
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../calibrations/m600/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    M600 (Changement de filament)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../calibrations/explications-des-fichiers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Explications des fichiers
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+  
+
+
+
+  
+  
+
+
+<h1 id="installation-de-mainsailos">Installation de MainsailOS</h1>
+<p>MainsailOS est le sytème d'exploitation du Raspberry Pi. Il s'appuie sur Raspberry Pi OS Lite en incluant Klipper, Moonraker et Mainsail dans le fichier image à installer, ce qui rend la configuration rapide et plus facile à utiliser.</p>
+<ul>
+<li>
+<p>Téléchargez et installez le logiciel : <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m19.896 10.896-.173-.303c.007-2.174-1.002-3.06-2.179-3.734.356-.094.724-.172.825-.619.611-.156.74-.44.8-.74.16-.106.696-.406.64-.92.3-.207.467-.473.382-.85.322-.35.407-.641.27-.909.387-.48.215-.73.05-.982.29-.525.034-1.088-.776-.994-.322-.473-1.024-.366-1.133-.364-.121-.152-.281-.282-.775-.219-.32-.285-.677-.236-1.046-.096-.438-.34-.727-.068-1.058.036-.53-.171-.652.063-.912.158-.578-.12-.754.141-1.03.418l-.323-.006c-.872.506-1.305 1.536-1.459 2.066-.153-.53-.586-1.56-1.457-2.066l-.323.006C9.942.501 9.766.239 9.19.36 8.927.265 8.806.03 8.276.202 8.059.134 7.86-.007 7.624 0a.7.7 0 0 0-.405.166c-.37-.14-.727-.189-1.046.096-.494-.063-.654.068-.776.22-.108-.003-.81-.11-1.133.363-.81-.094-1.065.47-.776.994-.165.252-.336.502.05.982-.136.268-.051.558.27.91-.084.376.083.642.383.849-.056.515.48.814.639.92.061.3.19.584.801.74.1.448.469.525.825.619-1.177.673-2.186 1.56-2.18 3.735l-.172.302c-1.349.809-2.562 3.406-.664 5.517.124.661.332 1.136.517 1.661.277 2.117 2.084 3.108 2.56 3.226.699.524 1.443 1.02 2.45 1.37.948.963 1.976 1.33 3.01 1.33h.046c1.034 0 2.062-.367 3.01-1.33 1.007-.35 1.751-.847 2.45-1.37.476-.118 2.284-1.109 2.56-3.226.186-.525.394-1 .517-1.66 1.899-2.112.685-4.71-.664-5.518m-1.04-.371c-.07.876-4.635-3.05-3.846-3.181 2.139-.356 3.919.896 3.847 3.18m-2.015 4.365c-1.148.74-2.802.262-3.695-1.069s-.686-3.01.462-3.75 2.803-.263 3.696 1.068c.892 1.33.686 3.01-.463 3.75M13.66 1.372c.04.197.084.321.135.358.254-.272.462-.55.788-.813.001.154-.077.321.117.443a2.3 2.3 0 0 1 .727-.624c-.152.26-.026.34.055.448.24-.206.468-.414.91-.576-.12.148-.29.292-.11.461.247-.154.496-.309 1.083-.418-.132.147-.406.295-.24.442Q17.59.915 18.158.84c-.182.15-.334.296-.184.412.332-.102.79-.24 1.237-.121l-.283.285c-.032.038.662.03 1.12.036-.167.232-.338.456-.437.855.045.046.272.02.486 0-.22.462-.6.578-.69.776.135.101.32.075.524.006-.158.325-.49.548-.751.812.066.047.182.075.456.043a4.2 4.2 0 0 1-.88.703c.06.07.272.068.467.072-.313.307-.717.466-1.095.667.188.13.323.1.467.097-.267.22-.722.335-1.144.467.08.125.16.159.332.194-.447.247-1.087.134-1.268.26.044.125.167.206.314.274-.72.041-2.688-.027-3.065-1.516.737-.81 2.081-1.76 4.394-2.934-1.8.602-3.423 1.405-4.782 2.51-1.598-.744-.496-2.62.283-3.365m-1.613 5.372c1.133-.012 2.536.832 2.53 1.629-.005.702-.985 1.271-2.52 1.26-1.505-.017-2.518-.715-2.514-1.395.002-.56 1.228-1.527 2.504-1.494m-5.764-.6c.172-.036.252-.07.332-.195-.422-.132-.877-.247-1.145-.466.145.001.28.031.468-.097-.378-.201-.782-.36-1.095-.667.195-.005.406-.002.467-.073a4.2 4.2 0 0 1-.88-.703c.274.032.39.004.456-.043-.262-.264-.593-.487-.751-.812.203.069.389.095.523-.006-.089-.198-.47-.314-.69-.776.215.02.442.046.487 0-.1-.399-.27-.623-.437-.855.458-.007 1.152.002 1.12-.036l-.283-.285c.447-.119.905.019 1.237.121.15-.116-.002-.263-.184-.412q.569.076 1.034.254C7.106.946 6.833.798 6.7.651c.587.11.836.264 1.083.418.18-.17.01-.313-.111-.46.443.161.67.37.911.575.081-.108.207-.187.055-.448.315.178.552.389.727.624.194-.122.116-.289.117-.442.326.261.534.54.788.812.05-.037.095-.161.135-.358.78.745 1.88 2.621.283 3.365C9.33 3.633 7.707 2.83 5.909 2.228c2.312 1.174 3.656 2.124 4.392 2.933-.377 1.49-2.345 1.558-3.065 1.516.147-.068.27-.149.314-.273-.18-.126-.821-.013-1.268-.26m2.817 1.133c.788.13-3.777 4.056-3.847 3.18C5.18 8.174 6.96 6.922 9.1 7.278m-4.847 8.756c-1.109-.879-1.466-3.453.59-4.61 1.24-.327.419 5.052-.59 4.61m4.266 4.6c-.626.371-2.145.218-3.225-1.31-.729-1.282-.635-2.587-.123-2.97.765-.46 1.946.16 2.856 1.2.792.94 1.153 2.592.492 3.08m-1.242-5.61c-1.148-.74-1.355-2.42-.462-3.75s2.547-1.81 3.695-1.068c1.148.74 1.355 2.42.463 3.75-.893 1.331-2.547 1.81-3.695 1.069m4.795 8.229c-1.376.058-2.726-1.11-2.708-1.516-.02-.594 1.676-1.058 2.782-1.03 1.113-.049 2.607.352 2.61.884.018.517-1.355 1.684-2.684 1.662m2.759-5.858c.008 1.39-1.226 2.522-2.757 2.53-1.53.007-2.777-1.114-2.785-2.504v-.026c-.008-1.39 1.226-2.523 2.756-2.53s2.778 1.113 2.786 2.503zm3.855 2.003c-1.186 1.62-2.792 1.684-3.39 1.232-.625-.58-.148-2.385.71-3.374.98-1.092 2.03-1.804 2.76-1.248.492.483.78 2.301-.08 3.39m1.072-3.43c-1.009.44-1.83-4.938-.59-4.61 2.057 1.157 1.7 3.73.59 4.61m-.026-8.328h.299v-.53h.299c.15 0 .205.062.226.205.015.108.011.239.048.325h.298c-.053-.076-.052-.236-.057-.321-.01-.138-.051-.28-.198-.318v-.004c.15-.06.215-.18.215-.34 0-.206-.154-.375-.397-.375h-.732zm.299-1.126h.327c.133 0 .205.058.205.188 0 .137-.072.194-.205.194h-.327zm-1.034.464a1.27 1.27 0 1 0 2.54 0 1.27 1.27 0 0 0-2.54 0m2.328 0a1.058 1.058 0 1 1-2.116 0 1.058 1.058 0 0 1 2.116 0"/></svg></span> <a href="https://www.raspberrypi.com/software/" target="_blank">Raspberry Pi Imager</a></p>
+</li>
+<li>
+<p>Lors de l'ouverture de Raspberry Pi Imager, les éléments suivants s'affichent :</p>
+</li>
+</ul>
+<p><a class="glightbox" href="../../assets/img/installation/mainsailos/01.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="01" src="../../assets/img/installation/mainsailos/01.png" width="600" /></a></p>
+<ul>
+<li>
+<p>Insérez votre carte microSD dans votre ordinateur.</p>
+</li>
+<li>
+<p>Sélectionnez <strong>CHOISISSEZ L'OS</strong>, une fenêtre contextuelle s'ouvre et faites défiler jusqu'à <strong>Formatter</strong> :</p>
+</li>
+</ul>
+<p><a class="glightbox" href="../../assets/img/installation/mainsailos/02.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="02" src="../../assets/img/installation/mainsailos/02.png" width="600" /></a></p>
+<ul>
+<li>Cliquez sur <strong>CHOISISSEZ LE STOCKAGE</strong> et sélectionnez votre carte microSD :</li>
+</ul>
+<p><a class="glightbox" href="../../assets/img/installation/mainsailos/03.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="03" src="../../assets/img/installation/mainsailos/03.png" width="600" /></a></p>
+<ul>
+<li>Cliquez ensuite sur <strong>ECRIRE</strong> et confirmez le formatage de la carte microSD :</li>
+</ul>
+<p><a class="glightbox" href="../../assets/img/installation/mainsailos/04.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="04" src="../../assets/img/installation/mainsailos/04.png" width="600" /></a></p>
+<ul>
+<li>Une fois l'opération terminée sélectionnez <strong>FORMATTER</strong> :</li>
+</ul>
+<p><a class="glightbox" href="../../assets/img/installation/mainsailos/05.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="05" src="../../assets/img/installation/mainsailos/05.png" width="600" /></a></p>
+<ul>
+<li>Faites défiler jusqu'à <strong>Other specific-purpose OS</strong> :</li>
+</ul>
+<p><a class="glightbox" href="../../assets/img/installation/mainsailos/06.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="06" src="../../assets/img/installation/mainsailos/06.png" width="600" /></a></p>
+<ul>
+<li>Sélectionnez <strong>3D printing</strong> :</li>
+</ul>
+<p><a class="glightbox" href="../../assets/img/installation/mainsailos/07.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="07" src="../../assets/img/installation/mainsailos/07.png" width="600" /></a></p>
+<ul>
+<li>Sélectionnez <strong>Mainsail OS</strong> :</li>
+</ul>
+<p><a class="glightbox" href="../../assets/img/installation/mainsailos/08.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="08" src="../../assets/img/installation/mainsailos/08.png" width="600" /></a></p>
+<ul>
+<li>Sélectionnez la version désirée (32-bit ou 64-bit) :</li>
+</ul>
+<p><a class="glightbox" href="../../assets/img/installation/mainsailos/09.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="09" src="../../assets/img/installation/mainsailos/09.png" width="600" /></a></p>
+<ul>
+<li>Cliquez ensuite sur <strong>CHOISISSEZ LE STOCKAGE</strong> et sélectionnez votre carte microSD :</li>
+</ul>
+<p><a class="glightbox" href="../../assets/img/installation/mainsailos/10.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="10" src="../../assets/img/installation/mainsailos/10.png" width="600" /></a></p>
+<ul>
+<li>Le nom d'hôte, le SSH, le Wi-Fi, la langue et de nombreux autres paramètres peuvent désormais être parcourus et préconfigurés dans un menu de configuration, en cliquant sur la petite roue dentée dans le coin en bas à droite :</li>
+</ul>
+<p><a class="glightbox" href="../../assets/img/installation/mainsailos/11.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="11" src="../../assets/img/installation/mainsailos/11.png" width="600" /></a></p>
+<ul>
+<li>Configurez les divers paramètres comme suit :</li>
+</ul>
+<mark class="critic block">
+<p><img alt="⚠" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/26a0.svg" title=":warning:" /> <strong>Veuillez ne pas changer le nom d’utilisateur pi !</strong> La configuration de MainsailOS repose sur cet utilisateur.</p>
+</mark>
+<p><a class="glightbox" href="../../assets/img/installation/mainsailos/12.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="12" src="../../assets/img/installation/mainsailos/12.png" /></a></p>
+<p><u>Note</u> : Si vous modifiez le paramètre <i>Set hotname</i>, l'URL de votre Raspberry Pi sera modifiée en conséquence.
+<br />
+  Comme indiqué dans la capture d'écran ci-dessus, votre URL sera : <a href="http://flsun-super-racer.local" target="_blank">http://flsun-super-racer.local</a></p>
+<ul>
+<li>
+<p>Cliquez ensuite sur <strong>SAVE</strong> pour sauvegarder ces paramètres.</p>
+</li>
+<li>
+<p>Vous pouvez ensuite cliquer sur <strong>ÉCRIRE</strong> :</p>
+</li>
+</ul>
+<p><a class="glightbox" href="../../assets/img/installation/mainsailos/13.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="13" src="../../assets/img/installation/mainsailos/13.png" width="600" /></a></p>
+<ul>
+<li>Puis acceptez l'avertissement :</li>
+</ul>
+<p><a class="glightbox" href="../../assets/img/installation/mainsailos/14.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="14" src="../../assets/img/installation/mainsailos/14.png" width="600" /></a></p>
+<ul>
+<li>Cela prendra un certain temps pour écrire l'image sur la carte microSD :</li>
+</ul>
+<p><a class="glightbox" href="../../assets/img/installation/mainsailos/15.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="15" src="../../assets/img/installation/mainsailos/15.png" width="600" /></a></p>
+<ul>
+<li>Une fois l’écriture terminée, une vérification sera effectuée :</li>
+</ul>
+<p><a class="glightbox" href="../../assets/img/installation/mainsailos/16.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="16" src="../../assets/img/installation/mainsailos/16.png" width="600" /></a></p>
+<ul>
+<li>Une fois la vérification terminée, cliquez sur <strong>CONTINUER</strong> :</li>
+</ul>
+<p><a class="glightbox" href="../../assets/img/installation/mainsailos/17.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="17" src="../../assets/img/installation/mainsailos/17.png" width="600" /></a></p>
+<ul>
+<li>
+<p>L'installation est maintenant terminée.</p>
+</li>
+<li>
+<p>Vous pouvez fermer <strong>Raspberry Pi Imager</strong>, insérer la carte microSD dans votre Raspberry Pi et le démarrer.</p>
+</li>
+</ul>
+<p><br /></p>
+<p>Vous pouvez ensuite continuer vers la section de connexion SSH en fonction de votre système d'exploitation :</p>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 21a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2zm1-8h8.5L11 16.5l1.42 1.42L18.34 12l-5.92-5.92L11 7.5l3.5 3.5H6z"/></svg></span> <a href="../ssh/windows/">Connexion SSH sous Windows</a></p>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 21a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2zm1-8h8.5L11 16.5l1.42 1.42L18.34 12l-5.92-5.92L11 7.5l3.5 3.5H6z"/></svg></span> <a href="../ssh/macos/">Connexion SSH sous macOS</a></p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+  
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Retour en haut de la page
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Guislain Cyril &copy; Tous droits réservés
+    </div>
+  
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://ko-fi.com/guilouz" target="_blank" rel="noopener" title="ko-fi.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.351 2.715c-2.7 0-4.986.025-6.83.26C2.078 3.285 0 5.154 0 8.61c0 3.506.182 6.13 1.585 8.493 1.584 2.701 4.233 4.182 7.662 4.182h.83c4.209 0 6.494-2.234 7.637-4a9.5 9.5 0 0 0 1.091-2.338C21.792 14.688 24 12.22 24 9.208v-.415c0-3.247-2.13-5.507-5.792-5.87-1.558-.156-2.65-.208-6.857-.208m0 1.947c4.208 0 5.09.052 6.571.182 2.624.311 4.13 1.584 4.13 4v.39c0 2.156-1.792 3.844-3.87 3.844h-.935l-.156.649c-.208 1.013-.597 1.818-1.039 2.546-.909 1.428-2.545 3.064-5.922 3.064h-.805c-2.571 0-4.831-.883-6.078-3.195-1.09-2-1.298-4.155-1.298-7.506 0-2.181.857-3.402 3.012-3.714 1.533-.233 3.559-.26 6.39-.26m6.547 2.287c-.416 0-.65.234-.65.546v2.935c0 .311.234.545.65.545 1.324 0 2.051-.754 2.051-2s-.727-2.026-2.052-2.026m-10.39.182c-1.818 0-3.013 1.48-3.013 3.142 0 1.533.858 2.857 1.949 3.897.727.701 1.87 1.429 2.649 1.896a1.47 1.47 0 0 0 1.507 0c.78-.467 1.922-1.195 2.623-1.896 1.117-1.039 1.974-2.364 1.974-3.897 0-1.662-1.247-3.142-3.039-3.142-1.065 0-1.792.545-2.338 1.298-.493-.753-1.246-1.298-2.312-1.298"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://discord.gg/5gzXKdpX" target="_blank" rel="noopener" title="discord.gg" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.317 4.37a19.8 19.8 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.3 18.3 0 0 0-5.487 0 13 13 0 0 0-.617-1.25.08.08 0 0 0-.079-.037A19.7 19.7 0 0 0 3.677 4.37a.1.1 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.08.08 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.08.08 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13 13 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10 10 0 0 0 .372-.292.07.07 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.07.07 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.3 12.3 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.08.08 0 0 0 .084.028 19.8 19.8 0 0 0 6.002-3.03.08.08 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.06.06 0 0 0-.031-.03M8.02 15.33c-1.182 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418m7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://tiktok.com/@guilouz" target="_blank" rel="noopener" title="tiktok.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/Guilouz" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy", "content.code.annotate", "navigation.top", "navigation.indexes", "navigation.sections", "search.highlight", "search.share", "search.suggest"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+        <script src="../../assets/javascripts/glightbox.min.js"></script>
+      
+    
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
+</html>
